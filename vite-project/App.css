@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    vertical-align: center;
+    text-align: center;
+    font-family: "Quantico", sans-serif;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    color: #007bff;
+  }
+  
+  h2 {
+    font-size: 48px;
+    color: #007bff;
+    margin: 20px 0;
+  }
+  
+  button{
+    border: none;
+    border-radius: 1rem;
+    background-color: #007bff70;
+    padding: 10px;
+    font-size: 15px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .add {
+    width: 40px;
+    height: 40px;
+    margin: 0 40px;
+    color: #065bb7;
+    font-size: 18px;
+  }
+  
+  .decrease {
+     width: 40px;
+    height: 40px;
+      margin: 0 40px;
+    color: #065bb7;
+    font-size: 18px;
+  
+  }
+  
+  .reset {
+    width: 80px;
+    height: 40px;
+    color: #065bb7;
+    font-family: "Quantico", sans-serif;
+  
+  }
+  
+  button:hover{
+    background: black;
+    color: white;
+  }
+  
+  div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  main{
+    background-image: url(https://img.freepik.com/fotos-premium/imagem-hd-de-fundo-gradiente-claro-limpo_181020-1366.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
