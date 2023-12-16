@@ -55,7 +55,7 @@ button{
 }
 
 .reset {
-  width: 80px;
+  width: 100px;
   height: 40px;
   color: #000000;
   font-family: "Quantico", sans-serif;
@@ -76,5 +76,7 @@ div{
 main{
   background-image: url(https://img.freepik.com/fotos-premium/abstract-background-design-images-wallpaper-ai-generated_643360-78112.jpg?w=360);
   background-repeat: no-repeat;
-  background-size: cover;
+background-size: cover;
+  margin: 0px;
+  padding: 0px;
 }
